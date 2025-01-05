@@ -4,7 +4,7 @@ This is your personal knowledge management system based on the [zettlekasten]([u
 ## Setup 
 
 Folders: 
-1. Journals: Contains one note per journal article with key information and concepts summarised as well as citation.
+1. **Journals**: Contains one note per journal article with key information and concepts summarised as well as citation.
 2. Concepts: These contain one note per concept. Multiple concepts can stem from one Journal note. The linking of ideas and notes are in the concepts directory.
 3. Ideas: These are temporary thoughts that pop up. Also known as fleeting notes.
 4. Writing: These are the new journals that you are writing. 
