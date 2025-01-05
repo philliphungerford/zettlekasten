@@ -7,6 +7,7 @@
 
 | Item                | Value                                    |
 | ------------------- | ---------------------------------------- |
+| 🧠 Study Notes      | **`$=dv.pages('"7 study"').length`**     |
 | 📜 Article Notes    | **`$=dv.pages('"1 journal"').length`**   |
 | ⚛ Concepts Acquired | **`$=dv.pages('"2 concept"').length`**   |
 | 💡 Current Ideas    | **`$=dv.pages('"3 ideas"').length`**     |

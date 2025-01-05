@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "README"
             }
-          },
-          {
-            "id": "7f4b086e3c469ebf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_template/template_concept.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "template_concept"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,12 +162,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b173876f8696f8c2",
+  "active": "dc1c8e73050ff3ea",
   "lastOpenFiles": [
-    "_template/template_article.md",
+    "7 study/_study home_.md",
+    "7 study/text classification.canvas",
+    "7 study/Parameters.md",
+    "7 study/Hyperparameters.md",
+    "7 study/Evaluation Metrics.md",
+    "7 study/Deep Learning for Text.md",
     "_template/template_concept.md",
+    "_template/template_article.md",
     "3 ideas/test idea.md",
-    "7 study/_study home.md",
     "README.md",
     "_template",
     "_attachment",
