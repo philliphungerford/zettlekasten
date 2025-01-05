@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "_template/template_concept.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "template_concept"
             }
           }
         ],
@@ -179,15 +179,21 @@
   },
   "active": "b173876f8696f8c2",
   "lastOpenFiles": [
-    "📊STATS.md",
+    "_template/template_article.md",
+    "_template/template_concept.md",
+    "3 ideas/test idea.md",
+    "7 study/_study home.md",
     "README.md",
+    "_template",
+    "_attachment",
+    "7 study",
+    "📊STATS.md",
     "6 published/test published.md",
     "6 published",
     "5 reviewing/completed journal article.md",
     "5 reviewing",
     "4 writing/test in progress article.md",
     "4 writing",
-    "3 ideas/test idea.md",
     "3 ideas",
     "2 concept/test concept 2.md",
     "2 concept/test concept 1.md",
@@ -198,9 +204,6 @@
     "concept/test concept 2.md",
     "idea/test idea.md",
     "journal/test journal.md",
-    "attachments",
-    "template",
-    "writing",
-    "idea"
+    "attachments"
   ]
 }

@@ -1,6 +1,6 @@
 ## ℹ About
 ---
->Your personal knowledge management system based on the [zettlekasten]([url](https://en.wikipedia.org/wiki/Zettelkasten)) system.
+>Your personal knowledge management system based on the [zettlekasten]([url](https://en.wikipedia.org/wiki/Zettelkasten)) system to help you write and publish peer reviewed journal articles.
 
 ## 📊 Stats
 ---
@@ -14,7 +14,7 @@
 | 🔍 Reviewing        | **`$=dv.pages('"5 reviewing"').length`** |
 | ✅ Published         | **`$=dv.pages('"6 published"').length`** |
 
-## 🥚Example Flow 
+## 🥚 Example Flow 
 ---
 
 1. Read a journal article using the SQ4RR method.
@@ -24,3 +24,4 @@
 5. For papers you are writing, they are stored in the '4 writing' folder.
 6. When a paper is up for review place it in the '5 reviewing' folder.
 7. Once a paper has been published, place it in the '6 published' folder. 
+8. Any study materials or notes should be placed in the '7 study' folder. 
