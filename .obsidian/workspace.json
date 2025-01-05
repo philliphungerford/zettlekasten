@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📊STATS.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "📊STATS"
+              "title": "README"
             }
           }
         ],
@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 301.5014228820801
   },
   "right": {
     "id": "9b244f9fcebf8211",
@@ -177,12 +177,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7f4b086e3c469ebf",
+  "active": "b173876f8696f8c2",
   "lastOpenFiles": [
-    "README.md",
     "📊STATS.md",
-    "5 written/completed journal article.md",
-    "5 written",
+    "README.md",
+    "6 published/test published.md",
+    "6 published",
+    "5 reviewing/completed journal article.md",
+    "5 reviewing",
     "4 writing/test in progress article.md",
     "4 writing",
     "3 ideas/test idea.md",
@@ -199,7 +201,6 @@
     "attachments",
     "template",
     "writing",
-    "idea",
-    "concept"
+    "idea"
   ]
 }

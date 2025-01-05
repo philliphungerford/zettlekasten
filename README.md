@@ -1,42 +1,26 @@
-# Zettlekasten
-This is your personal knowledge management system based on the [zettlekasten]([url](https://en.wikipedia.org/wiki/Zettelkasten)).
+## ℹ About
+---
+>Your personal knowledge management system based on the [zettlekasten]([url](https://en.wikipedia.org/wiki/Zettelkasten)) system.
 
-## Setup 
+## 📊 Stats
+---
 
-Folders: 
-1. **Journals**: Contains one note per journal article with key information and concepts summarised as well as citation.
-2. Concepts: These contain one note per concept. Multiple concepts can stem from one Journal note. The linking of ideas and notes are in the concepts directory.
-3. Ideas: These are temporary thoughts that pop up. Also known as fleeting notes.
-4. Writing: These are the new journals that you are writing. 
-5. Templates: Contain the templates for journal notes and concept notes.
+| Item                | Value                                    |
+| ------------------- | ---------------------------------------- |
+| 📜 Article Notes    | **`$=dv.pages('"1 journal"').length`**   |
+| ⚛ Concepts Acquired | **`$=dv.pages('"2 concept"').length`**   |
+| 💡 Current Ideas    | **`$=dv.pages('"3 ideas"').length`**     |
+| ✍ Writing           | **`$=dv.pages('"4 writing"').length`**   |
+| 🔍 Reviewing        | **`$=dv.pages('"5 reviewing"').length`** |
+| ✅ Published         | **`$=dv.pages('"6 published"').length`** |
 
+## 🥚Example Flow 
+---
 
-## Example Flow 
-
-#### Article: *Improving Hospital Readmissions with Predictive Analytics*
-
-1. **Journal Notes**:
-   - "Model improved readmissions by 20%."
-   - "Struggled with EHR data quality."
-   - "Author mentions potential for ethical challenges."
-
-2. **Concept Notes**:
-   - **Title**: *Predictive Analytics for Hospital Readmissions*
-     - "Predictive models in the article reduce readmissions by 20%, but require high-quality data for accuracy."
-     - **Source**: Smith et al. (2024), Journal of Healthcare Analytics.
-   - **Title**: *Data Quality in EHR Systems*
-     - "Poor data quality is a significant barrier to effective predictive modeling, as discussed in the article."
-     - **Source**: Smith et al. (2024), Journal of Healthcare Analytics.
-
-3. **Link Notes**:
-   - Link *Predictive Analytics for Hospital Readmissions* to *Data Quality in EHR Systems* to show the connection.
-
-4. **Tag Notes**:
-   - Tag both notes under "Predictive Analytics" and "Healthcare Data."
-
-5. **Cite Source**:
-   - Add full citation in your note to make it easier to reference later.
-
-6. **Reflection/Questions**:
-   - "How can data quality in EHRs be improved for more accurate models?"
-   - Link this question to both the *Data Quality* and *Predictive Analytics* notes.
+1. Read a journal article using the SQ4RR method.
+2. Create a note for the journal and place it in the '1 journal' folder. Put the citation and concepts you have learned from it in this note. 
+3. Extract the key concepts of the journal article and place them into their own separate concept note in the '2 concept' folder. Make sure to have each concept link to its respective journal. 
+4. Write down any paper ideas in the '3 ideas' folder.
+5. For papers you are writing, they are stored in the '4 writing' folder.
+6. When a paper is up for review place it in the '5 reviewing' folder.
+7. Once a paper has been published, place it in the '6 published' folder. 
