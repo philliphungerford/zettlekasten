@@ -5,7 +5,7 @@
 - Introduction to keras & tensorflow
 - Classification & Regression
 - Fundamentals
-- Workflow of ML 
+- Workflow of ML
 - Computer Vision
 - Time Series
 - [[Deep Learning for Text]]

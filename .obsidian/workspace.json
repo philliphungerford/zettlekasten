@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "8 reference/How to use git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "How to use git"
             }
           }
         ]
@@ -162,9 +162,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dc1c8e73050ff3ea",
+  "active": "b173876f8696f8c2",
   "lastOpenFiles": [
+    "8 reference/How to use docker (R & Python).md",
+    "8 reference/How to install docker.md",
+    "8 reference/How to use git.md",
+    "_attachment/Untitled 9.png",
+    "_attachment/Untitled 8.png",
+    "_attachment/Untitled 7.png",
+    "_attachment/Untitled 6.png",
+    "_attachment/Untitled 5.png",
+    "_attachment/Untitled 4.png",
+    "_attachment/Untitled 3.png",
+    "_attachment/Untitled 2.png",
+    "_attachment/Untitled 1.png",
+    "_attachment/Untitled.png",
     "7 study/_study home_.md",
+    "8 reference",
+    "README.md",
+    "0 articles",
     "7 study/text classification.canvas",
     "7 study/Parameters.md",
     "7 study/Hyperparameters.md",
@@ -173,7 +189,6 @@
     "_template/template_concept.md",
     "_template/template_article.md",
     "3 ideas/test idea.md",
-    "README.md",
     "_template",
     "_attachment",
     "7 study",
@@ -189,11 +204,9 @@
     "2 concept/test concept 1.md",
     "2 concept",
     "1 journal/test journal.md",
-    "1 journal",
     "concept/test concept 1.md",
     "concept/test concept 2.md",
     "idea/test idea.md",
-    "journal/test journal.md",
-    "attachments"
+    "journal/test journal.md"
   ]
 }
