@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"bd3e9cc0efd97e02","type":"group","x":-200,"y":-240,"width":345,"height":200,"label":"data transformations"},
+		{"id":"7bc75605b043596d","type":"text","text":"Predictions Y' (y_pred)","x":-169,"y":0,"width":276,"height":60,"color":"4"},
+		{"id":"b719816c9fdbc8fe","type":"text","text":"True Target Y (y_true)","x":180,"y":0,"width":276,"height":60,"color":"4"},
+		{"id":"cb1b818c3a1ba54f","type":"text","text":"loss score","x":20,"y":280,"width":250,"height":60,"color":"4"},
+		{"id":"5181e11b7c317f00","type":"text","text":"[[optimiser]]","x":-480,"y":100,"width":250,"height":60,"color":"4"},
+		{"id":"8995e3c8f800b369","type":"text","text":"","x":-720,"y":-500,"width":1283,"height":60},
+		{"id":"d72e869959f8aa23","type":"text","text":"Targets (Y)","x":313,"y":-640,"width":250,"height":60},
+		{"id":"d1746e57a7150d16","type":"text","text":"Inputs (X)","x":-720,"y":-640,"width":250,"height":60},
+		{"id":"7fb7a3fa0771abee","type":"text","text":"DL maps via Transformations +examples","x":-274,"y":-640,"width":392,"height":60},
+		{"id":"f21d2d126ff3c7e8","type":"text","text":"[[parameters]] (weights)","x":-480,"y":-220,"width":250,"height":60,"color":"4"},
+		{"id":"40a8650780595753","type":"text","text":"[[parameters]] (weights)","x":-480,"y":-120,"width":250,"height":60,"color":"4"},
+		{"id":"b362ac5f55080785","type":"text","text":"Layer (data transformation)","x":-169,"y":-220,"width":276,"height":60,"color":"4"},
+		{"id":"3b98cf6e60088a52","type":"text","text":"Layer (data transformation)","x":-169,"y":-120,"width":276,"height":60,"color":"4"},
+		{"id":"5d19459ab5b3da23","type":"text","text":"Input X","x":-169,"y":-400,"width":276,"height":60,"color":"4"},
+		{"id":"ce980bc1f2ee2461","type":"text","text":"[[loss function]]","x":20,"y":160,"width":250,"height":60,"color":"4"},
+		{"id":"606ad57b8eada686","x":-720,"y":380,"width":694,"height":920,"type":"text","text":"### Key Steps in a Training Loop:\n\n1. **Initialize Model Parameters**:\n    - The model's [[parameters]] (weights and biases) are initialized, often with small random values.\n2. **Iterate Over Epochs**:\n    - **Epoch**: One complete pass through the entire training dataset.\n3. **Iterate Over Batches**:\n    - The training data is typically divided into smaller chunks called **batches** or **mini-batches** to make training computationally efficient.\n    - The loop processes one batch at a time.\n4. **Forward Pass**:\n    - The input data is passed through the model to compute predictions.\n    - This involves applying the model's current parameters to transform the input.\n5. **Loss Calculation**:\n    - The model's predictions are compared to the ground truth labels using a **loss function** (e.g., Mean Squared Error, Cross-Entropy Loss).\n    - The loss quantifies the error in the predictions.\n6. **Backward Pass (Backpropagation)**:\n    - Gradients of the loss with respect to the model’s parameters are computed using **automatic differentiation**.\n    - This step identifies how to adjust each parameter to reduce the loss.\n7. **Parameter Update**:\n    - The optimizer updates the model's parameters (weights and biases) using the computed gradients and the chosen update rule (e.g., Stochastic Gradient Descent, Adam).\n8. **Evaluate Performance (Optional)**:\n    \n    - Periodically, the model's performance on a validation set is checked to ensure it is learning correctly and not overfitting.\n9. **Repeat Until Convergence**:\n    \n    - The loop continues until the loss function stops improving significantly or until a predefined number of epochs is reached."},
+		{"id":"74d90f66b5039a76","x":243,"y":380,"width":320,"height":120,"type":"text","text":"A network with minimal loss is one for which the outputs are as close as they can be to the targets: a trained network."}
+	],
+	"edges":[
+		{"id":"08cef1f6ceae1626","fromNode":"5d19459ab5b3da23","fromSide":"bottom","toNode":"b362ac5f55080785","toSide":"top"},
+		{"id":"1457975fc21e660e","fromNode":"b362ac5f55080785","fromSide":"bottom","toNode":"3b98cf6e60088a52","toSide":"top"},
+		{"id":"6bc6331a47156a01","fromNode":"3b98cf6e60088a52","fromSide":"bottom","toNode":"7bc75605b043596d","toSide":"top"},
+		{"id":"93ceb7529350d848","fromNode":"b719816c9fdbc8fe","fromSide":"bottom","toNode":"ce980bc1f2ee2461","toSide":"top"},
+		{"id":"66837ad91594fe76","fromNode":"7bc75605b043596d","fromSide":"bottom","toNode":"ce980bc1f2ee2461","toSide":"top"},
+		{"id":"766d1c1cd895c052","fromNode":"ce980bc1f2ee2461","fromSide":"bottom","toNode":"cb1b818c3a1ba54f","toSide":"top"},
+		{"id":"23d12c1f16b5493a","fromNode":"cb1b818c3a1ba54f","fromSide":"left","toNode":"5181e11b7c317f00","toSide":"bottom"},
+		{"id":"0c4ea5149128d92f","fromNode":"40a8650780595753","fromSide":"right","toNode":"3b98cf6e60088a52","toSide":"left"},
+		{"id":"f7d37cd547121f5a","fromNode":"f21d2d126ff3c7e8","fromSide":"right","toNode":"b362ac5f55080785","toSide":"left"},
+		{"id":"66cdad53321148b7","fromNode":"5181e11b7c317f00","fromSide":"left","toNode":"f21d2d126ff3c7e8","toSide":"left","label":"updates"},
+		{"id":"455f40f148912ef6","fromNode":"5181e11b7c317f00","fromSide":"top","toNode":"40a8650780595753","toSide":"bottom","label":"updates"},
+		{"id":"1288973274f1c21f","fromNode":"d1746e57a7150d16","fromSide":"right","toNode":"7fb7a3fa0771abee","toSide":"left"},
+		{"id":"b7fdf6592505b4b0","fromNode":"7fb7a3fa0771abee","fromSide":"right","toNode":"d72e869959f8aa23","toSide":"left"}
+	]
+}

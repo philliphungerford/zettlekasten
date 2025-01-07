@@ -1,3 +1,4 @@
+
 ### 1. **Learning Rate**
 
 - Controls how much the model's parameters are adjusted during training with each iteration. A high learning rate may lead to faster convergence but can cause instability, while a low rate may make training stable but slower.

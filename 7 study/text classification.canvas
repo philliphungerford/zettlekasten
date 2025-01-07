@@ -28,9 +28,9 @@
 		{"id":"a6932529f6ed8a96","type":"text","text":"batch size","x":230,"y":160,"width":250,"height":60,"color":"5"},
 		{"id":"6542af80a399d892","type":"text","text":"accuracy (training, validation)","x":580,"y":160,"width":250,"height":60,"color":"6"},
 		{"id":"404b935ce5214428","type":"text","text":"f1 score","x":880,"y":40,"width":250,"height":60,"color":"2"},
-		{"id":"ab750bc4421feed0","type":"file","file":"7 study/Hyperparameters.md","x":-140,"y":500,"width":495,"height":500,"color":"5"},
-		{"id":"974f34a95773d326","type":"file","file":"7 study/Parameters.md","x":418,"y":500,"width":462,"height":500,"color":"6"},
-		{"id":"884026925bff9b76","type":"file","file":"7 study/Evaluation Metrics.md","x":960,"y":500,"width":480,"height":500,"color":"2"},
+		{"id":"ab750bc4421feed0","type":"file","file":"7 study/hyperparameters.md","x":-140,"y":500,"width":495,"height":500,"color":"5"},
+		{"id":"974f34a95773d326","type":"file","file":"7 study/parameters.md","x":418,"y":500,"width":462,"height":500,"color":"6"},
+		{"id":"884026925bff9b76","type":"file","file":"7 study/evaluation metrics.md","x":960,"y":500,"width":480,"height":500,"color":"2"},
 		{"id":"11f69eb226996782","type":"text","text":"Natural Language Processing","x":-2000,"y":-120,"width":289,"height":60}
 	],
 	"edges":[
